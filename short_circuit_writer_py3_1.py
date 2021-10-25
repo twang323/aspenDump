@@ -1,6 +1,6 @@
 import sys
 sys.path = [p for p in sys.path if p.startswith(r'C:\Users')]
-#sys.path.append('C:\\Users\\s259630\\AppData\\Local\\Continuum\\miniconda2\\Lib\\site-packages\\win32com')
+#sys.path.append('C:\\Users\\username\\AppData\\Local\\Continuum\\miniconda2\\Lib\\site-packages\\win32com')
 print(sys.path)
 import PySimpleGUI as sg
 import os
